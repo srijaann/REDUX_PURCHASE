@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Collapse, Well, Media, Row, Col } from "react-bootstrap";
+import { Button, Collapse, Media, Row, Col } from "react-bootstrap";
 
 export default class ItemDetails extends Component {
   constructor(props, context) {
@@ -24,7 +24,7 @@ export default class ItemDetails extends Component {
         </Button>
         <Collapse in={this.state.open}>
           <div>
-            <Well>
+            
               <Media>
                 <Media.Left>
                   <img
@@ -51,7 +51,7 @@ export default class ItemDetails extends Component {
                   </Row>
                 </Media.Body>
               </Media>
-            </Well>
+            
           </div>
         </Collapse>
       </div>
