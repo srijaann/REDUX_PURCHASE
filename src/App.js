@@ -6,7 +6,7 @@ import PickupSavings from "./components/PickupSavings";
 import TaxesFees from "./components/TaxesFees";
 import ItemDetails from "./components/ItemDetails";
 import PromoCode from "./components/PromoCode";
-import EstimatedTotal from "./components/EstimatedTotal/EstimatedTotal";
+import EstimatedTotal from "./components/EstimatedTotal";
 import { connect } from "react-redux";
 import { handleChange } from "./actions/promoCodeActions";
 
